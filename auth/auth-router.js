@@ -23,7 +23,7 @@ console.log('in register -->', user.password);
 
   Jokes.add(user)
     .then(saved => {
-      res.status(201).json(saved);
+      res.status(201).json({message: "registration complete!",savedUser: saved});
     })
     .catch(error => {
       console.log(error);
