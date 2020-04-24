@@ -49,6 +49,9 @@ bcrypt hashing our password or any information we want to secure before saving i
 it hashes the secure information a certain amount of rounds, which is specified, which in turn slows down the attacker. 
 
 - [x] What are the three parts of the JSON Web Token?
+The header.
+The payload.
+The signature.
 
 ## Minimum Viable Product
 
