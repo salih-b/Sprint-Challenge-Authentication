@@ -38,13 +38,20 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] What is the purpose of using _sessions_?
+- [x] What is the purpose of using _sessions_?
+A session is a way to store information (in variables) to be used across multiple pages. A Session can store the value on the Server. It can support any type of object to be stored along with our own custom objects. A session is one of the best techniques for State Management because it stores the data as client-based.
 
-- [ ] What does bcrypt do to help us store passwords in a secure manner.
 
-- [ ] What does bcrypt do to slow down attackers?
+- [x] What does bcrypt do to help us store passwords in a secure manner.
+bcrypt hashing our password or any information we want to secure before saving it to the database
 
-- [ ] What are the three parts of the JSON Web Token?
+- [x] What does bcrypt do to slow down attackers?
+it hashes the secure information a certain amount of rounds, which is specified, which in turn slows down the attacker. 
+
+- [x] What are the three parts of the JSON Web Token?
+The header.
+The payload.
+The signature.
 
 ## Minimum Viable Product
 
